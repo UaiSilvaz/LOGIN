@@ -167,3 +167,40 @@ button:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 480px) {
+    .formulario {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .formulario h1 {
+        font-size: 22px;
+    }
+
+    .caixa-formulario input {
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .caixa-formulario i {
+        font-size: 18px;
+        right: 15px;
+        top: 22%;
+    }
+
+    .caixa-lembrar-esqueci {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    button {
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .link-registro {
+        font-size: 13px;
+    }
+}
+
